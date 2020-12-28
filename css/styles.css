@@ -1,0 +1,238 @@
+body {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo-studio-black {
+  color: black;
+}
+
+.logo-studio-white {
+  color: white;
+}
+
+.logo,
+.nav-list-link,
+.studio-mail,
+.studio-tel,
+.studio-address,
+.footer-address,
+.footer-mail,
+.footer-tel {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.nav-menu .nav-list-link.current {
+  color: #2196f3;
+}
+.nav-list-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.studio-mail:hover,
+.studio-mail:focus,
+.studio-tel:hover,
+.studio-tel:focus {
+  color: #2196f3;
+}
+
+.address {
+  font-style: normal;
+}
+
+.studio-mail,
+.studio-tel {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.main-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+
+/* ========== HERO ==========*/
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* ========== FEATURES ==========*/
+
+.feauture-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.feauture-description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ========== ABOUT PIC ==========*/
+
+.gallery-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* ========== OUR TEAM ==========*/
+
+.team-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-member {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.member-post {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ========== FOOTER ==========*/
+
+.footer-address {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-mail,
+.footer-tel {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer {
+  background: #2f303a;
+}
+
+/* ========== PORTFOLIO ==========*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+a {
+  text-decoration: none;
+}
+
+.portfolio-item-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-item-type {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
