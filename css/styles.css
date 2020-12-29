@@ -154,6 +154,10 @@ a {
   margin-right: 50px;
 }
 
+.address-list-item {
+  display: flex;
+}
+
 .studio-address-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -164,11 +168,23 @@ a {
 }
 
 /* ========== HERO ==========*/
+
 .hero-baner {
-  background: #2f303a;
   text-align: center;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero/hero-bg.jpg");
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -228,12 +244,6 @@ a {
   color: #757575;
 }
 
-.feature-list {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 94px;
-}
-
 .feature-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -241,6 +251,13 @@ a {
 .feature-list-item {
   width: 270px;
 }
+
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 94px;
+}
+
 /* ========== ABOUT PIC ==========*/
 
 .gallery-title {
@@ -308,6 +325,7 @@ a {
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 
 .team-list-item:not(:last-child) {
@@ -320,6 +338,39 @@ a {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196f3;
+}
+
+.social-list-link:hover > .social-list-icon,
+.social-list-link:focus > .social-list-icon {
+  fill: #ffffff;
+}
+
+.social-list-icon {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
 }
 
 /* ========== FOOTER ==========*/
