@@ -259,6 +259,8 @@ a {
   background-image: url("/images/sprite.svg#antenna");
   height: 120px;
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .feature-list {
