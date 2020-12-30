@@ -36,14 +36,14 @@
             <address class="address">
                 <ul class="address-list">
                     <li class="address-list-item">
-                        <a class="studio-address-link" href="mailto:info@example.com">
-                            <svg class="address-list-icon" width="16" height="12">
-                                <use href="./images/sprite.svg#mail"></use>
-                            </svg>info@example.com
+                        <a class="studio-address-link" href="mailto:info@example.com ">
+                            <svg class="address-list-icon" width="16" height="12"> <use href="./images/sprite.svg#mail"></use></svg>info@example.com
                         </a>
                     </li>
                     <li class="address-list-item">
-                        <a class="studio-address-link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        <a class="studio-address-link" href="tel:+380991111111"><svg class="address-list-icon" width="16" height="12">
+                            <use href="./images/sprite.svg#telephone"></use></svg>+38 099 111 11 11
+                        </a>
                     </li>
                 </ul>
             </address>
@@ -63,21 +63,41 @@
                 <h2 class="visually-hidden">Особенности студии</h2>
                 <ul class="feature-list">
                     <li class="feature-list-item">
+                        <div class="feature-item-icon">
+                            <svg class="feature-list-icon">
+                                <use href="./images/sprite.svg#antenna"></use>
+                            </svg>
+                        </div>
                         <h3 class="feauture-title">Внимание к деталям</h3>
                         <p class="feauture-description">Идейные соображения, а также начало повседневной работы по
                             формированию позиции.</p>
                     </li>
                     <li class="feature-list-item">
+                        <div class="feature-item-icon">
+                            <svg class="feature-list-icon">
+                                <use href="./images/sprite.svg#antenna"></use>
+                            </svg>
+                        </div>
                         <h3 class="feauture-title">Пунктуальность</h3>
                         <p class="feauture-description">Задача организации, в особенности же рамки и место обучения
                             кадров влечет за собой.</p>
                     </li>
                     <li class="feature-list-item">
+                        <div class="feature-item-icon">
+                            <svg class="feature-list-icon">
+                                <use href="./images/sprite.svg#diagram"></use>
+                            </svg>
+                        </div>
                         <h3 class="feauture-title">Планирование</h3>
                         <p class="feauture-description">Равным образом консультация с широким активом в значительной
                             степени обуславливает.</p>
                     </li>
                     <li class="feature-list-item">
+                        <div class="feature-item-icon">
+                            <svg class="feature-list-icon">
+                                <use href="./images/sprite.svg#astronaut"></use>
+                            </svg>
+                        </div>
                         <h3 class="feauture-title">Современные технологии</h3>
                         <p class="feauture-description">Значимость этих проблем настолько очевидна, что реализация
                             плановых заданий.</p>
@@ -317,53 +337,55 @@
     </main>
     <!-- Подвал -->
     <footer class="footer">
-        <div class="footer-container">
-            <a class="logo" href="./">Web<span class="logo-studio-white">Studio</span></a>
-            <ul class="address">
-                <li class="address-item ">
-                    <a class="footer-address" href="https://goo.gl/maps/x4nBV2eikP3uwNPG8" target="_blank">г. Киев, пр-т
-                        Леси Украинки, 26</a>
-                </li>
-                <li class="mail-item">
-                    <a class="footer-mail" href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li class="tel-item">
-                    <a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-social">
-            <p class="social-call">присоединяйтесь</p>
-            <ul class="footer-social-list list">
-                <li class="footer-social-item">
-                    <a class="footer-social-link" href="">
-                        <svg class="footer-social-icon">
-                            <use href="./images/sprite.svg#instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <a class="footer-social-link" href="">
-                        <svg class="footer-social-icon">
-                            <use href="./images/sprite.svg#twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <a class="footer-social-link" href="">
-                        <svg class="footer-social-icon">
-                            <use href="./images/sprite.svg#facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-list-item">
-                    <a class="social-list-link" href="">
-                        <svg class="social-list-icon">
-                            <use href="./images/sprite.svg#linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="footer-contacts">
+                <a class="logo" href="./">Web<span class="logo-studio-white">Studio</span></a>
+                <ul class="address">
+                    <li class="address-item ">
+                        <a class="footer-address" href="https://goo.gl/maps/x4nBV2eikP3uwNPG8" target="_blank">г. Киев, пр-т
+                            Леси Украинки, 26</a>
+                    </li>
+                    <li class="mail-item">
+                        <a class="footer-mail" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li class="tel-item">
+                        <a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <p class="social-call">присоединяйтесь</p>
+                <ul class="footer-social-list list">
+                    <li class="footer-social-item">
+                        <a class="footer-social-link" href="">
+                            <svg class="footer-list-icon">
+                                <use href="./images/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-social-link" href="">
+                            <svg class="footer-social-icon">
+                                <use href="./images/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-social-link" href="">
+                            <svg class="footer-social-icon">
+                                <use href="./images/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-social-link" href="">
+                            <svg class="footer-social-icon">
+                                <use href="./images/sprite.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>

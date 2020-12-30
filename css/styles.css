@@ -145,6 +145,11 @@ a {
   color: #2196f3;
 }
 
+.studio-address-link:hover .address-list-icon,
+.studio-address-link:focus .address-list-icon {
+  fill: #2196f3;
+}
+
 .address-list {
   display: flex;
   font-style: normal;
@@ -156,15 +161,23 @@ a {
 
 .address-list-item {
   display: flex;
+  justify-content: space-between;
 }
 
 .studio-address-link {
+  display: flex;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.address-list-icon {
+  margin-right: 10px;
+  fill: #757575;
 }
 
 /* ========== HERO ==========*/
@@ -248,19 +261,21 @@ a {
   margin-right: 30px;
 }
 
-.feature-list-item {
+.feature-item-icon {
+  display: flex;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  padding-top: 25px;
+  padding-bottom: 25px;
   width: 270px;
 }
 
-.feature-list-item::before {
-  display: block;
-  outline: 1px solid orange;
-  content: "";
-  background-image: url("/images/sprite.svg#smartphone");
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.feature-list-icon {
+  height: 70px;
+}
+
+.feature-list-item {
+  width: 270px;
 }
 
 .feature-list {
@@ -359,9 +374,6 @@ a {
 }
 
 .social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -438,6 +450,10 @@ a {
   display: flex;
 }
 
+.footer > .container {
+  display: flex;
+}
+
 .address-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -456,16 +472,16 @@ a {
   margin-top: 20px;
 }
 
-.footer-container {
+.footer-contacts {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer-container .address {
+.footer-contacts .address {
   margin-top: 20px;
 }
 
-.footer-container .logo {
+.footer-contacts .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -496,12 +512,16 @@ a {
 
 .footer-social-list {
   display: flex;
-  justify-content: space-between;
+}
+
+.footer-social-list .footer-social-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .footer-social-icon {
   width: 20px;
   height: 20px;
+  fill: #ffffff;
 }
 
 .footer-social-link {
@@ -511,12 +531,38 @@ a {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-contacts .footer-social {
+  display: flex;
+  justify-content: ;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
   background-color: #ffffff;
 }
 
-.footer-container .footer-social {
-  display: flex;
-  justify-content: ;
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #2196f3;
+}
+
+.social-list-link:hover .footer-list-icon,
+.social-list-link:focus .footer-list-icon {
+  fill: #ffffff;
+}
+
+.footer-list-icon {
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
 }
 
 .social-call {
@@ -529,6 +575,10 @@ a {
 
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+.footer-social-item .social-list-link {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* ========== PORTFOLIO ==========*/
