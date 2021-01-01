@@ -246,6 +246,7 @@ a {
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .feauture-description {
@@ -657,6 +658,12 @@ a {
   border-radius: 4px;
 }
 
+.card-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 .button:hover,
 .button:focus {
   color: #ffffff;
@@ -667,6 +674,7 @@ a {
 
 .card-item:hover,
 .card-item:focus {
+  background-color: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
